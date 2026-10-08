@@ -40,7 +40,7 @@ export default function Hero() {
             <a href="#projects" className="btn btn-primary">
               <i className="fa-solid fa-diagram-project"></i> View My Work
             </a>
-            <a href={siteConfig.resumePath} download="Mohd_Osama_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+            <a href={siteConfig.resumePath} download="osama.resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               <i className="fa-solid fa-download"></i> Download Resume
             </a>
           </div>

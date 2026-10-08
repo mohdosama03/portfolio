@@ -8,5 +8,5 @@ export const siteConfig = {
   location: 'Lucknow, Uttar Pradesh, India',
   github: 'https://github.com/mohdosama03',
   linkedin: 'https://linkedin.com/in/mohdosama03',
-  resumePath: `${import.meta.env.BASE_URL}resume/Mohd_Osama_Resume3.0.pdf`, // file lives in frontend/public/resume/
+  resumePath: `${import.meta.env.BASE_URL}resume/osama.resume.pdf`, // file lives in frontend/public/resume/
 };
