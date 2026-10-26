@@ -1,56 +1,42 @@
-// Update liveUrl / sourceUrl here when your projects are deployed.
-// '#' keeps the button visible but inactive.
-// category must be 'frontend' or 'fullstack' (used by the filter buttons).
+// Project links verified from the public GitHub repositories and READMEs.
 export const projects = [
   {
     id: 1,
     category: 'fullstack',
     thumbClass: 'project-thumb-1',
-    icon: 'fa-solid fa-cart-shopping',
-    title: 'E-Commerce Website',
+    icon: 'fa-solid fa-user-tie',
+    title: 'AI Interview Prep',
     description:
-      'A responsive online shopping platform with product listings, a dynamic shopping cart, and a clean, modern UI built for a smooth buying experience.',
-    features: [
-      'Responsive product listing',
-      'Shopping cart functionality',
-      'Modern, conversion-focused UI',
-    ],
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
-    liveUrl: '#',
-    sourceUrl: '#',
+      'A full-stack AI interview preparation platform with role-based practice questions, answer feedback, scoring, and progress tracking.',
+    features: ['Technical, HR & behavioral practice', 'AI answer scoring and feedback', 'Progress tracking'],
+    tags: ['MERN', 'Gemini AI', 'Interview Prep'],
+    liveUrl: null,
+    sourceUrl: 'https://github.com/mohdosama03/ai-interview-prep',
   },
   {
     id: 2,
     category: 'frontend',
     thumbClass: 'project-thumb-2',
-    icon: 'fa-solid fa-list-check',
-    title: 'To-Do List Application',
+    icon: 'fa-solid fa-film',
+    title: 'CineVAULT',
     description:
-      'A productivity app to add, edit, delete, and complete tasks — with all data persisted locally using LocalStorage so nothing is lost on refresh.',
-    features: [
-      'Add, edit & delete tasks',
-      'Mark tasks as completed',
-      'LocalStorage persistence',
-    ],
-    tags: ['HTML5', 'CSS3', 'JavaScript'],
-    liveUrl: '#',
-    sourceUrl: '#',
+      'A cinematic movie discovery and ticket booking app with interactive seat selection, concessions, checkout, and digital tickets.',
+    features: ['Movie search and discovery', 'Interactive seat selection', 'Booking flow and digital tickets'],
+    tags: ['React', 'Vite', 'OMDb API'],
+    liveUrl: 'https://mohdosama03.github.io/cinevault/',
+    sourceUrl: 'https://github.com/mohdosama03/cinevault',
   },
   {
     id: 3,
     category: 'fullstack',
     thumbClass: 'project-thumb-3',
-    icon: 'fa-solid fa-hospital',
-    title: 'Hospital Management System',
+    icon: 'fa-solid fa-robot',
+    title: 'Virtual Assistant',
     description:
-      'A full-stack system to manage patients and doctors, book appointments, and monitor hospital operations through an admin dashboard.',
-    features: [
-      'Patient & doctor management',
-      'Appointment booking',
-      'Hospital dashboard',
-    ],
-    tags: ['Node.js', 'Express.js', 'MongoDB / MySQL'],
-    liveUrl: '#',
-    sourceUrl: '#',
+      'A full-stack virtual assistant project with separate frontend and backend applications.',
+    features: ['Dedicated frontend', 'Backend application'],
+    tags: ['JavaScript', 'Full Stack'],
+    liveUrl: null,
+    sourceUrl: 'https://github.com/mohdosama03/virtualAssistant',
   },
 ];

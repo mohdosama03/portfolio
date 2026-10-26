@@ -52,10 +52,12 @@ export default function Projects() {
                   {p.tags.map((t) => <span key={t}>{t}</span>)}
                 </div>
                 <div className="project-links">
-                  <a href={p.liveUrl} className="btn-sm btn-sm-primary" {...(p.liveUrl !== '#' && { target: '_blank', rel: 'noopener noreferrer' })}>
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                  </a>
-                  <a href={p.sourceUrl} className="btn-sm btn-sm-outline" {...(p.sourceUrl !== '#' && { target: '_blank', rel: 'noopener noreferrer' })}>
+                  {p.liveUrl && (
+                    <a href={p.liveUrl} className="btn-sm btn-sm-primary" target="_blank" rel="noopener noreferrer">
+                      <i className="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                    </a>
+                  )}
+                  <a href={p.sourceUrl} className="btn-sm btn-sm-outline" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-github"></i> Source Code
                   </a>
                 </div>
